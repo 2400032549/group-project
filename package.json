@@ -7,7 +7,7 @@
     "dev": "vite",
     "dev:interactive": "node ./scripts/dev-with-open.cjs",
     "open": "start http://localhost:5174/",
-    "build": "vite build",
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
